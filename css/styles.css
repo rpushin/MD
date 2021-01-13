@@ -1,0 +1,88 @@
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Italic.ttf');
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background-color: #C4996C;
+    margin: 0 0 0 0;
+}
+h2 {
+    font-size: 28px;
+    margin-top: 5px;
+}
+p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    line-height: 28px;
+    margin-top: 18px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 89px;
+    background-color: #5B2D09;
+}
+
+.nav_button {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #5B2D09;
+    width: 150px;
+    background-color: #E2C798;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    margin: 4px 4px 4px 4px;
+    text-decoration: none;
+}
+.nav_button:hover {
+    background-color: #FFE1AD;
+}
+
+.problem_container {
+    background-color: #FFFFFF;
+    color: #5B2D09;
+    width: 90%;
+    margin: 10px 50px;
+    border-color: #5B2D09;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
