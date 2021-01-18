@@ -106,12 +106,21 @@ p {
     justify-content:space-around;
 }
 .code_block_small{
-    display:block
+    display:block;
     min-width: 300px;
     color: #000000;
     border-style: solid;
     border-width: 2px;
     background-color: #EEE;
     border-color: #d6d6d6;
+    border-left-width: 5px;
+    border-left-color: darkgreen;
     padding: 5px;
+    position: relative;
+}
+.code_block_small_answer{
+
+}
+.code_block_small_answer_button{
+
 }
