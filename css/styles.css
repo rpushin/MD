@@ -86,3 +86,8 @@ p {
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 995px) {
+    .problem_container{
+        margin: 10px 5px;
+    }
+}
