@@ -90,24 +90,28 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 60vh;
+    min-height: 40vh;
     margin-top: 5px;
 }
 .video_tutorial, .video_tutorial>.embeded_youtube{
-    width: 107vh;
-    height:60vh;
+    width: 72vh;
+    height:40vh;
 }
 .text_tutorial{
     margin-left: 5px;
 }
-.code_container{
+.multiple_container{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
 }
+
+.step_container {
+    position: relative;
+}
 .code_block_small{
     display:block;
-    min-width: 300px;
+    min-width: 400px;
     color: #000000;
     border-style: solid;
     border-width: 2px;
@@ -118,9 +122,20 @@ p {
     padding: 5px;
     position: relative;
 }
-.code_block_small_answer{
-
+.code_block_small_answer {
+    display: none;
+    position: absolute;
+    background-color: #EEE;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 100;
 }
-.code_block_small_answer_button{
-
+.code_block_small_answer_button {
+    text-align: center;
+    background-color: darkgreen;
+    margin-top: -1em;
+    color: #E2C798;
+}
+.code_block_small_answer_button:hover + .code_block_small_answer{
+    display:block;
 }
